@@ -25,4 +25,5 @@ public class Network {
         this.bandwidth = bandwidth;
         this.baseDistance = baseDistance;
     }
+
 }

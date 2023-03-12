@@ -1,7 +1,7 @@
 package com.bt.networkservice.controller;
 
 import com.bt.networkservice.model.Network;
-import com.bt.networkservice.service.NetworkServiceImpl;
+import com.bt.networkservice.service.NetworkService;
 import com.bt.networkservice.utility.Constant;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
@@ -19,7 +19,7 @@ public class NetworkController {
     Logger logger = LoggerFactory.getLogger(NetworkController.class);
 
     @Autowired
-    private NetworkServiceImpl networkService;
+    private NetworkService networkService;
 
     @PostMapping(Constant.INSERT_DEFAULT_NETWORKS)
     public void insertingValues(){
@@ -33,13 +33,14 @@ public class NetworkController {
     }
 
     @PostMapping(Constant.CREATE_NETWORK)
-    public void createNetwork(@RequestBody Network network){
+    public Network createNetwork(@RequestBody Network network){
         logger.info("Creating Networks");
         Network networkCreating = new Network(
                 network.getName(),
                 network.getBandwidth(),
                 network.getBaseDistance());
         networkService.createNetwork(networkCreating);
+        return networkCreating;
     }
 
     @GetMapping(Constant.GET_ALL_NETWORK)
@@ -81,6 +82,4 @@ public class NetworkController {
         }
         return "Policy not found to be deleted";
     }
-
-
 }

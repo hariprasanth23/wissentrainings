@@ -11,4 +11,5 @@ import java.util.Optional;
 public interface NetworkRepository extends JpaRepository<Network,Integer> {
     List<Network> findByBaseDistanceGreaterThan(int baseDistance);
     Optional<Network> findByName(String name);
+    List<Network> findAll();
 }
