@@ -1,9 +1,16 @@
 package com.bt.networkservice.controller;
 
+import com.bt.networkservice.exception.InvalidFieldException;
 import com.bt.networkservice.model.Network;
+import com.bt.networkservice.model.NetworkAndUser;
+import com.bt.networkservice.model.NetworkUser;
+import com.bt.networkservice.repository.network.NetworkRepository;
+import com.bt.networkservice.repository.user.NetworkUserRepository;
 import com.bt.networkservice.service.NetworkService;
+import com.bt.networkservice.service.NetworkUserService;
 import com.bt.networkservice.utility.Constant;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +28,15 @@ public class NetworkController {
     @Autowired
     private NetworkService networkService;
 
+    @Autowired
+    private NetworkUserService networkUserService;
+
+    @Autowired
+    private NetworkRepository networkRepository;
+
+    @Autowired
+    private NetworkUserRepository networkUserRepository;
+
     @PostMapping(Constant.INSERT_DEFAULT_NETWORKS)
     public void insertingValues(){
         logger.info("Inserting values first time");
@@ -30,10 +46,23 @@ public class NetworkController {
         networkService.saveToNetwork(network);
         networkService.saveToNetwork(network1);
 
+        NetworkUser networkUser = new NetworkUser("Hari","hari@gmail.com");
+        NetworkUser networkUser1 = new NetworkUser("Prasanth","prasasnth@gmail.com");
+
+        networkUserService.saveToNetworkUser(networkUser);
+        networkUserService.saveToNetworkUser(networkUser1);
+
     }
 
     @PostMapping(Constant.CREATE_NETWORK)
-    public Network createNetwork(@RequestBody Network network){
+    public Network createNetwork(@RequestBody Network network) {
+        if(StringUtils.isBlank(network.getName())){
+            throw new InvalidFieldException("Name is required");
+        }else if(StringUtils.isBlank(network.getBandwidth())){
+            throw new InvalidFieldException("BandWidth is required");
+        }
+
+
         logger.info("Creating Networks");
         Network networkCreating = new Network(
                 network.getName(),
@@ -82,4 +111,14 @@ public class NetworkController {
         }
         return "Policy not found to be deleted";
     }
+
+    @GetMapping(Constant.GET_NETWORK_AND_USER_DETAILS)
+    public NetworkAndUser getNetworkAndUserDetails(){
+        NetworkAndUser networkAndUser = new NetworkAndUser();
+        networkAndUser.setNetworks(networkRepository.findAll());
+        networkAndUser.setUsers(networkUserRepository.findAll());
+        return networkAndUser;
+
+    }
+
 }
