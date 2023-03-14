@@ -1,7 +1,7 @@
 package com.bt.networkservice.service;
 
 import com.bt.networkservice.model.Network;
-import com.bt.networkservice.repository.network.NetworkRepository;
+import com.bt.networkservice.repository.NetworkRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

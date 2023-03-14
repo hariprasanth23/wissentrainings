@@ -1,4 +1,4 @@
-package com.bt.networkservice.repository.network;
+package com.bt.networkservice.repository;
 
 import com.bt.networkservice.model.Network;
 import org.springframework.data.jpa.repository.JpaRepository;
