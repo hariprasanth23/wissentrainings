@@ -1,0 +1,8 @@
+
+D
+java:S1121".Extract the assignment out of this expression.(‘žã°
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(É¡ÆÙúÿÿÿÿ
+T
+java:S2168"9Remove this dangerous instance of double-checked locking.(‹žŒ˜øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(“ƒÉÇøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÇùÖï

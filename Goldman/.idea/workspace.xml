@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52c296c2-6b66-4317-8f80-e8e95212e89e" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/gs/tryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedhashmap/custom/ThreadPool/CustomBlockingQueueUsingLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedhashmap/custom/ThreadPool/customThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfg/singletonDesignPattern/MyCloneDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfg/singletonDesignPattern/MyCloneDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gs/BestTimeTOBuyAndSellStocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/BestTimeTOBuyAndSellStocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gs/LaserBeamsInABank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/LaserBeamsInABank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gs/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gs/Trial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/Trial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gs/fractionToDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/fractionToDecimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gs/longestUniformString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/longestUniformString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gs/reverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gs/reverseInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedhashmap/custom/LinkedHashMapCustomApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedhashmap/custom/LinkedHashMapCustomApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedhashmap/custom/MultiValuedMap/MultivalueMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedhashmap/custom/MultiValuedMap/MultivalueMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/InterThreadCommunication/InterThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/InterThreadCommunication/InterThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/semaphore/ProducerConsumerProblem/BlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/semaphore/ProducerConsumerProblem/BlockingQueueDemo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IDEXKDV5Ww01Df2iHLXQ79rfOJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/HP Akash/OneDrive/Goldman Sachs/Goldman"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP Akash\OneDrive\Goldman Sachs\Goldman\src\gfg\singletonDesignPattern" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyCloneDemo">
+    <configuration name="EagerSingletonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg.singletonDesignPattern.EagerSingletonDemo" />
+      <module name="Goldman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gfg.singletonDesignPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.InterThreadCommunication.InterThreadDemo" />
+      <module name="Goldman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.InterThreadCommunication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyCloneDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg.singletonDesignPattern.MyCloneDemo" />
+      <module name="Goldman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gfg.singletonDesignPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="longestUniformString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gs.longestUniformString" />
+      <module name="Goldman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lruUsingDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedhashmap.custom.lru.lruUsingDeque" />
+      <module name="Goldman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedhashmap.custom.lru.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyCloneDemo" />
+        <item itemvalue="Application.EagerSingletonDemo" />
+        <item itemvalue="Application.InterThreadDemo" />
+        <item itemvalue="Application.lruUsingDeque" />
+        <item itemvalue="Application.longestUniformString" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52c296c2-6b66-4317-8f80-e8e95212e89e" name="Changes" comment="" />
+      <created>1669707792548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669707792548</updated>
+      <workItem from="1669707795892" duration="11000000" />
+      <workItem from="1669778138387" duration="15235000" />
+      <workItem from="1669858210648" duration="19993000" />
+      <workItem from="1670049641315" duration="3516000" />
+      <workItem from="1670173203350" duration="7017000" />
+      <workItem from="1670242964556" duration="46217000" />
+      <workItem from="1670521592421" duration="505000" />
+      <workItem from="1670559731630" duration="11684000" />
+      <workItem from="1670850770691" duration="3051000" />
+      <workItem from="1671168845495" duration="2244000" />
+      <workItem from="1671265122935" duration="423000" />
+      <workItem from="1671275280165" duration="597000" />
+      <workItem from="1671388334571" duration="8156000" />
+      <workItem from="1671508875092" duration="2303000" />
+      <workItem from="1671540186212" duration="5224000" />
+      <workItem from="1671640087159" duration="10722000" />
+      <workItem from="1671729835521" duration="2208000" />
+      <workItem from="1672045245774" duration="10954000" />
+      <workItem from="1672117175387" duration="7820000" />
+      <workItem from="1672632151443" duration="1731000" />
+      <workItem from="1672810641597" duration="593000" />
+      <workItem from="1672821649467" duration="1824000" />
+      <workItem from="1672838934055" duration="1362000" />
+      <workItem from="1672850530274" duration="2190000" />
+      <workItem from="1672857788175" duration="708000" />
+      <workItem from="1672883908095" duration="6820000" />
+      <workItem from="1672892304554" duration="330000" />
+      <workItem from="1672976662423" duration="3943000" />
+      <workItem from="1672981099108" duration="3540000" />
+      <workItem from="1673158342419" duration="714000" />
+      <workItem from="1673187833374" duration="22769000" />
+      <workItem from="1673515164281" duration="6296000" />
+      <workItem from="1673751037621" duration="8658000" />
+      <workItem from="1673873582829" duration="3159000" />
+      <workItem from="1674017670305" duration="1248000" />
+      <workItem from="1674484856665" duration="2114000" />
+      <workItem from="1674824088785" duration="806000" />
+      <workItem from="1674825649013" duration="5535000" />
+      <workItem from="1674969377891" duration="2950000" />
+      <workItem from="1675400571133" duration="2501000" />
+      <workItem from="1675562186218" duration="1345000" />
+      <workItem from="1675674333989" duration="154000" />
+      <workItem from="1675677190292" duration="619000" />
+      <workItem from="1675762299195" duration="8705000" />
+      <workItem from="1676003984712" duration="1493000" />
+      <workItem from="1676606557782" duration="1044000" />
+      <workItem from="1676727457052" duration="2000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1673407275712</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673407275712</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
