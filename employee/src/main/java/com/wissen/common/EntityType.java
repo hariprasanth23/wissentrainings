@@ -1,4 +1,4 @@
-package com.wissen.employee.common;
+package com.wissen.common;
 
 public enum EntityType {
     HR,

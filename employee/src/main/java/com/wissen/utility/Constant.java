@@ -1,4 +1,4 @@
-package com.wissen.employee.utility;
+package com.wissen.utility;
 
 public class Constant {
 
