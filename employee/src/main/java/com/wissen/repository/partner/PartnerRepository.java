@@ -1,6 +1,6 @@
 package com.wissen.repository.partner;
 
-import com.wissen.entity.partner.Partner;
+import com.wissen.entity.Partner;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,6 +1,6 @@
 package com.wissen.configuration;
 
-import com.wissen.repository.employee.EmployeeRepository;
+import com.wissen.entity.Partner;
 import com.wissen.repository.partner.PartnerRepository;
 import jakarta.persistence.EntityManagerFactory;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -9,7 +9,6 @@ import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Primary;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
@@ -17,8 +16,6 @@ import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;
-import java.util.HashMap;
-import java.util.Map;
 
 @Configuration
 @EnableTransactionManagement
@@ -41,8 +38,7 @@ public class PartnerConfig {
             @Qualifier("partnerDatasource") DataSource dataSource){
 
         return builder.dataSource(dataSource)
-                .packages("com.wissen.entity.partner")
-                .persistenceUnit("Partner").build();
+                .packages(Partner.class).build();
 
     }
 

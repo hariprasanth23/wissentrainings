@@ -1,20 +1,17 @@
-package com.wissen.entity.partner;
+package com.wissen.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 @Entity
 @NoArgsConstructor
 @Data
 @AllArgsConstructor
 @ToString
-public class Partner {
+@Builder
+public class Employee {
 
     @Id
     private int id;

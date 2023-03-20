@@ -14,6 +14,7 @@ class LazySingletonSerializable extends MyClone implements Serializable {
         }
     }
 
+
     protected Object readResolve(){
         return instance;
     }
@@ -22,6 +23,7 @@ class LazySingletonSerializable extends MyClone implements Serializable {
     protected Object clone() throws CloneNotSupportedException {
         throw new CloneNotSupportedException();
     }
+
 
     public static LazySingletonSerializable getInstance(){
         if(instance == null){

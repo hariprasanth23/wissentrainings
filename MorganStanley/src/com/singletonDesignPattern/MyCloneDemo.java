@@ -12,10 +12,10 @@ class LazySingletonClone extends MyClone{
     private LazySingletonClone(){}
     private static LazySingletonClone instance;
 
-//    @Override
-//    protected Object clone() throws CloneNotSupportedException {
-//        throw new CloneNotSupportedException();
-//    }
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return instance;
+    }
 
     public static synchronized  LazySingletonClone getInstance(){
         if(instance == null){

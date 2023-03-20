@@ -26,4 +26,5 @@ public class Network {
         this.baseDistance = baseDistance;
     }
 
+
 }

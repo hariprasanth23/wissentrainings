@@ -1,7 +1,7 @@
 package com.wissen.service;
 
-import com.wissen.entity.employee.Employee;
-import com.wissen.entity.partner.Partner;
+import com.wissen.entity.Employee;
+import com.wissen.entity.Partner;
 import com.wissen.repository.employee.EmployeeRepository;
 import com.wissen.repository.partner.PartnerRepository;
 import lombok.extern.slf4j.Slf4j;
@@ -29,17 +29,14 @@ public class EmployeeService {
         List<Partner> partnerList = employeeList.parallelStream().
                 filter(e->e.getEmployeeType().equals("Partners"))
                 .map(this::mapToPartner).toList();
-
         logger.info("Partners  List"+ partnerList);
+        partnerRepository.saveAll(partnerList);
 
         List<Employee> employeeList1 = employeeList.parallelStream().filter(e->!e.getEmployeeType().equals("Partners")).toList();
         logger.info("Other Employee  List"+ employeeList1);
-
         employeeRepository.saveAll(employeeList1);
 
     }
-
-
 
     private Partner mapToPartner(Employee employee) {
         Partner partner = new Partner();
@@ -53,4 +50,21 @@ public class EmployeeService {
 
         return partner;
     }
+
+    public List<Employee> getAllEmployee(){
+        return employeeRepository.findAll();
+    }
+
+    public Employee saveEmployee(Employee employee){
+        return employeeRepository.save(employee);
+    }
+
+    public Partner savePartner(Partner partner){
+        return partnerRepository.save(partner);
+    }
+    public List<Partner> getAllPartner(){
+        return partnerRepository.findAll();
+    }
+
+
 }

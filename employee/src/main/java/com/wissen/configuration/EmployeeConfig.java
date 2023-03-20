@@ -1,6 +1,6 @@
 package com.wissen.configuration;
 
-import com.wissen.entity.employee.Employee;
+import com.wissen.entity.Employee;
 import com.wissen.repository.employee.EmployeeRepository;
 import jakarta.persistence.EntityManagerFactory;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -17,8 +17,6 @@ import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;
-import java.util.HashMap;
-import java.util.Map;
 
 @Configuration
 @EnableTransactionManagement
@@ -40,18 +38,14 @@ public class EmployeeConfig {
     @Bean(name="EmployeeEntityManagerFactory")
     public LocalContainerEntityManagerFactoryBean employeeEntityManagerFactoryBean(
             EntityManagerFactoryBuilder builder, @Qualifier("EmployeeDatasource") DataSource dataSource){
-
         return builder.dataSource(dataSource)
-                .packages("com.wissen.entity.employee")
-                .persistenceUnit("Employee").build();
-
+                .packages(Employee.class).build();
     }
 
     @Primary
     @Bean(name = "EmployeeTransactionManager")
     public PlatformTransactionManager employeeTransactionManager(
             @Qualifier("EmployeeEntityManagerFactory")EntityManagerFactory entityManagerFactory){
-
         return new JpaTransactionManager(entityManagerFactory);
     }
 
