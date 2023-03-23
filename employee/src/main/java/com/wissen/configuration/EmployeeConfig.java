@@ -49,6 +49,4 @@ public class EmployeeConfig {
         return new JpaTransactionManager(entityManagerFactory);
     }
 
-
-
 }

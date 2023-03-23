@@ -1,0 +1,6 @@
+id,username,dateOfBirth,salary,email,mobile,employeeType
+1,user1,dob1,1000,email1,mobile1,HR
+2,user2,dob2,2000,email2,mobile2,Technology
+3,user3,dob3,3000,email3,mobile3,Partners
+4,user4,dob4,4000,email4,mobile4,Partners
+5,user5,dob5,5000,email5,mobile5,HR
