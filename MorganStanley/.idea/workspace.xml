@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f6899f2-5468-45bd-b3de-791c12b59cc9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../employee/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../employee/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee/src/main/java/com/wissen/configuration/EmployeeConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../employee/src/main/java/com/wissen/configuration/EmployeeConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee/src/main/java/com/wissen/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../employee/src/main/java/com/wissen/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee/src/main/java/com/wissen/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../employee/src/main/java/com/wissen/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../employee/src/main/java/com/wissen/utility/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../employee/src/main/java/com/wissen/utility/Constant.java" afterDir="false" />
-    </list>
+    <list default="true" id="2f6899f2-5468-45bd-b3de-791c12b59cc9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
